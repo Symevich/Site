@@ -28,3 +28,8 @@ header {
 .headerdiv {
     margin: 0px;
 }
+
+img {
+    border: 10px solid black;
+    border-radius: 10px;
+}
