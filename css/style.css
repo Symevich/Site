@@ -10,10 +10,6 @@ a {
     color: rgb(133, 133, 133);
 }
 
-.selected {
-    color: blue;
-}
-
 * {
     font-family: "Roboto", sans-serif;
     font-weight: 550;
@@ -21,15 +17,30 @@ a {
     text-align: center;
 }
 
-header {
-    background-color: rgb(23, 23, 23);
-}
-
-.headerdiv {
-    margin: 0px;
-}
-
 img {
     border: 10px solid black;
     border-radius: 10px;
+}
+
+ul.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li.nav {
+    float: left;
+}
+
+li a.nav {
+    display: block;
+    color: #ffffff57;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover.nav {
+    background-color: #111;
 }
