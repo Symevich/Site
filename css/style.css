@@ -1,0 +1,29 @@
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav {
+    color: rgb(133, 133, 133);
+}
+
+.selected {
+    color: blue;
+}
+
+* {
+    font-family: "Roboto", sans-serif;
+    font-weight: 550;
+    font-style: regular;
+}
+
+header {
+    background-color: rgb(23, 23, 23);
+}
+
+.headerdiv {
+    margin: 0px;
+}
